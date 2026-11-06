@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\radmi\source\repos\Game\nativefiledialog-extended-master\src\nfd_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\radmi\source\repos\Game\nativefiledialog-extended-master\src\include\nfd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\radmi\source\repos\Game\nativefiledialog-extended-master\src\include\nfd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\radmi\source\repos\Game\nativefiledialog-extended-master\src\include\nfd_sdl2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\radmi\source\repos\Game\nativefiledialog-extended-master\src\include\nfd_glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\radmi\source\repos\Game\nativefiledialog-extended-master\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BB453A92-010F-31D0-9A0B-C2D7E70A2592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{622FCE51-77BD-39BE-B1BD-38F80F168BDB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/radmi/source/repos/Game/build/cmake_install.cmake",
+		"C:/Users/radmi/source/repos/Game/build/nativefiledialog-extended-master/cmake_install.cmake",
+		"C:/Users/radmi/source/repos/Game/build/nativefiledialog-extended-master/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

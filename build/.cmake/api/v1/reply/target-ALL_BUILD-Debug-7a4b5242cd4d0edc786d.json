@@ -1,0 +1,47 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"nativefiledialog-extended-master/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "nfd::@a966b4e1c530d763449e"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@98d04a6ce2e9e825dce1",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "nfd::@a966b4e1c530d763449e"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "nativefiledialog-extended-master",
+		"source" : "nativefiledialog-extended-master"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,5 @@
+C:/Users/radmi/source/repos/Game/build/CMakeFiles/Game.dir
+C:/Users/radmi/source/repos/Game/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/radmi/source/repos/Game/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/radmi/source/repos/Game/build/nativefiledialog-extended-master/CMakeFiles/ALL_BUILD.dir
+C:/Users/radmi/source/repos/Game/build/nativefiledialog-extended-master/src/CMakeFiles/nfd.dir

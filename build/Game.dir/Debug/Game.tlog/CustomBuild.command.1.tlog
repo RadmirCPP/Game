@@ -1,0 +1,10 @@
+^C:\USERS\RADMI\SOURCE\REPOS\GAME\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/radmi/source/repos/Game -BC:/Users/radmi/source/repos/Game/build --check-stamp-file C:/Users/radmi/source/repos/Game/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

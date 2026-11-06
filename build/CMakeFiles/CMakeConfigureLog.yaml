@@ -1,0 +1,2365 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+      Build started 07.11.2026 0:50:31.
+      
+      Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\4.4.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\4.4.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\4.4.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.92
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/radmi/source/repos/Game/build/CMakeFiles/4.4.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/"
+      - "C:/OracleXE/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/"
+      - "C:/Users/radmi/.dotnet/tools/"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/"
+      - "C:/OracleXE/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/"
+      - "C:/Users/radmi/.dotnet/tools/"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/lld-link.com"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/lld-link.exe"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/lld-link"
+      - "C:/OracleXE/dbhomeXE/bin/lld-link.com"
+      - "C:/OracleXE/dbhomeXE/bin/lld-link.exe"
+      - "C:/OracleXE/dbhomeXE/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git LFS/lld-link.com"
+      - "C:/Program Files/Git LFS/lld-link.exe"
+      - "C:/Program Files/Git LFS/lld-link"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link.com"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/lld-link"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/lld-link"
+      - "C:/Users/radmi/.dotnet/tools/lld-link.com"
+      - "C:/Users/radmi/.dotnet/tools/lld-link.exe"
+      - "C:/Users/radmi/.dotnet/tools/lld-link"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/lld-link.com"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/lld-link.exe"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/lld-link"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/lld-link"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/"
+      - "C:/OracleXE/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/"
+      - "C:/Users/radmi/.dotnet/tools/"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/"
+      - "C:/OracleXE/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/"
+      - "C:/Users/radmi/.dotnet/tools/"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/mt.com"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/mt.exe"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/mt"
+      - "C:/OracleXE/dbhomeXE/bin/mt.com"
+      - "C:/OracleXE/dbhomeXE/bin/mt.exe"
+      - "C:/OracleXE/dbhomeXE/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Git LFS/mt.com"
+      - "C:/Program Files/Git LFS/mt.exe"
+      - "C:/Program Files/Git LFS/mt"
+      - "C:/Program Files (x86)/ZeroTier/One/mt.com"
+      - "C:/Program Files (x86)/ZeroTier/One/mt.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/mt.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/mt.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/mt"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/mt.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/mt.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/mt"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/mt.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/mt.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/mt"
+      - "C:/Users/radmi/.dotnet/tools/mt.com"
+      - "C:/Users/radmi/.dotnet/tools/mt.exe"
+      - "C:/Users/radmi/.dotnet/tools/mt"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/mt.com"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/mt.exe"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/mt"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.com"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.exe"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/mt"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/mt.com"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/mt.exe"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/mt"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/mt.com"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/mt.exe"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/"
+      - "C:/OracleXE/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/"
+      - "C:/Users/radmi/.dotnet/tools/"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/"
+      - "C:/OracleXE/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/"
+      - "C:/Users/radmi/.dotnet/tools/"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/Game/bin/"
+      - "C:/Program Files (x86)/Game/sbin/"
+      - "C:/Program Files (x86)/Game/"
+    searched_directories:
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/rc.com"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/rc.exe"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/rc"
+      - "C:/OracleXE/dbhomeXE/bin/rc.com"
+      - "C:/OracleXE/dbhomeXE/bin/rc.exe"
+      - "C:/OracleXE/dbhomeXE/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Git LFS/rc.com"
+      - "C:/Program Files/Git LFS/rc.exe"
+      - "C:/Program Files/Git LFS/rc"
+      - "C:/Program Files (x86)/ZeroTier/One/rc.com"
+      - "C:/Program Files (x86)/ZeroTier/One/rc.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/rc.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/rc.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/rc"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/rc.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/rc.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/rc"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/rc.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/rc.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/rc"
+      - "C:/Users/radmi/.dotnet/tools/rc.com"
+      - "C:/Users/radmi/.dotnet/tools/rc.exe"
+      - "C:/Users/radmi/.dotnet/tools/rc"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/rc.com"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/rc.exe"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/rc"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.com"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.exe"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/rc"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/rc.com"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/rc.exe"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/rc"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/rc.com"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/rc.exe"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/Game/bin/rc.com"
+      - "C:/Program Files (x86)/Game/bin/rc.exe"
+      - "C:/Program Files (x86)/Game/bin/rc"
+      - "C:/Program Files (x86)/Game/sbin/rc.com"
+      - "C:/Program Files (x86)/Game/sbin/rc.exe"
+      - "C:/Program Files (x86)/Game/sbin/rc"
+      - "C:/Program Files (x86)/Game/rc.com"
+      - "C:/Program Files (x86)/Game/rc.exe"
+      - "C:/Program Files (x86)/Game/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Game"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Game"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-h96ph3"
+      binary: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-h96ph3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-h96ph3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fdff0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+        Build started 07.11.2026 0:50:32.
+        
+        Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h96ph3\\cmTC_fdff0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h96ph3\\Debug\\".
+          Creating directory "cmTC_fdff0.dir\\Debug\\cmTC_fdff0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fdff0.dir\\Debug\\cmTC_fdff0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fdff0.dir\\Debug\\cmTC_fdff0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_fdff0.dir\\Debug\\\\" /Fd"cmTC_fdff0.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ?????????? ?????????? (Microsoft Corporation).  ??? ????? ????????.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_fdff0.dir\\Debug\\\\" /Fd"cmTC_fdff0.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h96ph3\\Debug\\cmTC_fdff0.exe" /INCREMENTAL /ILK:"cmTC_fdff0.dir\\Debug\\cmTC_fdff0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-h96ph3/Debug/cmTC_fdff0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-h96ph3/Debug/cmTC_fdff0.lib" /MACHINE:X64  /machine:x64 cmTC_fdff0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_fdff0.vcxproj -> C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h96ph3\\Debug\\cmTC_fdff0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_fdff0.dir\\Debug\\cmTC_fdff0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_fdff0.dir\\Debug\\cmTC_fdff0.tlog\\cmTC_fdff0.lastbuildstate".
+        Done Building Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h96ph3\\cmTC_fdff0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h96ph3\\Debug\\cmTC_fdff0.exe" /INCREMENTAL /ILK:"cmTC_fdff0.dir\\Debug\\cmTC_fdff0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-h96ph3/Debug/cmTC_fdff0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-h96ph3/Debug/cmTC_fdff0.lib" /MACHINE:X64  /machine:x64 cmTC_fdff0.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "SFML-3.0.0/lib/cmake/SFML/SFMLConfig.cmake:95 (find_path)"
+      - "CMakeLists.txt:28 (find_package)"
+    mode: "path"
+    variable: "SFML_DOC_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SFML.tag"
+    candidate_directories:
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/SFML/doc/"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/share/doc/SFML/"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/"
+      - "C:/OracleXE/dbhomeXE/bin/SFML/doc/"
+      - "C:/OracleXE/dbhomeXE/bin/share/doc/SFML/"
+      - "C:/OracleXE/dbhomeXE/bin/"
+      - "C:/Windows/System32/SFML/doc/"
+      - "C:/Windows/System32/share/doc/SFML/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/SFML/doc/"
+      - "C:/Windows/share/doc/SFML/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/SFML/doc/"
+      - "C:/Windows/System32/wbem/share/doc/SFML/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/SFML/doc/"
+      - "C:/Windows/System32/OpenSSH/share/doc/SFML/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/SFML/doc/"
+      - "C:/Program Files/Git/cmd/share/doc/SFML/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/SFML/doc/"
+      - "C:/Program Files/dotnet/share/doc/SFML/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git LFS/SFML/doc/"
+      - "C:/Program Files/Git LFS/share/doc/SFML/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/ZeroTier/One/SFML/doc/"
+      - "C:/Program Files (x86)/ZeroTier/One/share/doc/SFML/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/CMake/bin/SFML/doc/"
+      - "C:/Program Files/CMake/bin/share/doc/SFML/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/SFML/doc/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/share/doc/SFML/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/SFML/doc/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/share/doc/SFML/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/SFML/doc/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/SFML/doc/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/share/doc/SFML/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/"
+      - "C:/Users/radmi/.dotnet/tools/SFML/doc/"
+      - "C:/Users/radmi/.dotnet/tools/share/doc/SFML/"
+      - "C:/Users/radmi/.dotnet/tools/"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/SFML/doc/"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/share/doc/SFML/"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/SFML/doc/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/doc/SFML/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/SFML/doc/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/share/doc/SFML/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/SFML/doc/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/share/doc/SFML/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/"
+      - "C:/Program Files/include/SFML/doc/"
+      - "C:/Program Files/include/share/doc/SFML/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/SFML/doc/"
+      - "C:/Program Files/share/doc/SFML/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/SFML/doc/"
+      - "C:/Program Files (x86)/include/share/doc/SFML/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/SFML/doc/"
+      - "C:/Program Files (x86)/share/doc/SFML/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/SFML/doc/"
+      - "C:/Program Files/CMake/include/share/doc/SFML/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/SFML/doc/"
+      - "C:/Program Files/CMake/share/doc/SFML/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/Game/include/SFML/doc/"
+      - "C:/Program Files (x86)/Game/include/share/doc/SFML/"
+      - "C:/Program Files (x86)/Game/include/"
+      - "C:/Program Files (x86)/Game/SFML/doc/"
+      - "C:/Program Files (x86)/Game/share/doc/SFML/"
+      - "C:/Program Files (x86)/Game/"
+      - "C:/Users/radmi/source/repos/Game/SFML-3.0.0/SFML/doc/"
+      - "C:/Users/radmi/source/repos/Game/SFML-3.0.0/share/doc/SFML/"
+      - "C:/Users/radmi/source/repos/Game/SFML-3.0.0/"
+      - "C:/Users/radmi/Library/Frameworks/SFML/doc/"
+      - "C:/Users/radmi/Library/Frameworks/share/doc/SFML/"
+      - "C:/Users/radmi/Library/Frameworks/"
+      - "/Library/Frameworks/SFML/doc/"
+      - "/Library/Frameworks/share/doc/SFML/"
+      - "/Library/Frameworks/"
+      - "/usr/local/SFML/doc/"
+      - "/usr/local/share/doc/SFML/"
+      - "/usr/local/"
+      - "/usr/SFML/doc/"
+      - "/usr/share/doc/SFML/"
+      - "/usr/"
+      - "/sw/SFML/doc/"
+      - "/sw/share/doc/SFML/"
+      - "/sw/"
+      - "/opt/local/SFML/doc/"
+      - "/opt/local/share/doc/SFML/"
+      - "/opt/local/"
+      - "/opt/csw/SFML/doc/"
+      - "/opt/csw/share/doc/SFML/"
+      - "/opt/csw/"
+      - "/opt/SFML/doc/"
+      - "/opt/share/doc/SFML/"
+      - "/opt/"
+    searched_directories:
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/SFML/doc/SFML.tag"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/share/doc/SFML/SFML.tag"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/SFML.tag"
+      - "C:/OracleXE/dbhomeXE/bin/SFML/doc/SFML.tag"
+      - "C:/OracleXE/dbhomeXE/bin/share/doc/SFML/SFML.tag"
+      - "C:/OracleXE/dbhomeXE/bin/SFML.tag"
+      - "C:/Windows/System32/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/SFML.tag"
+      - "C:/Windows/SFML/doc/SFML.tag"
+      - "C:/Windows/share/doc/SFML/SFML.tag"
+      - "C:/Windows/SFML.tag"
+      - "C:/Windows/System32/wbem/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/wbem/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/wbem/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/SFML.tag"
+      - "C:/Program Files/Git/cmd/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/cmd/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/cmd/SFML.tag"
+      - "C:/Program Files/dotnet/SFML/doc/SFML.tag"
+      - "C:/Program Files/dotnet/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/dotnet/SFML.tag"
+      - "C:/Program Files/Git LFS/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git LFS/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git LFS/SFML.tag"
+      - "C:/Program Files (x86)/ZeroTier/One/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/ZeroTier/One/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/ZeroTier/One/SFML.tag"
+      - "C:/Program Files/CMake/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/bin/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/CMake/bin/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/SFML.tag"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/SFML.tag"
+      - "C:/Users/radmi/.dotnet/tools/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/.dotnet/tools/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/.dotnet/tools/SFML.tag"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/SFML.tag"
+      - "C:/Program Files/include/SFML/doc/SFML.tag"
+      - "C:/Program Files/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/include/SFML.tag"
+      - "C:/Program Files/SFML/doc/SFML.tag"
+      - "C:/Program Files/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/SFML.tag"
+      - "C:/Program Files (x86)/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/include/SFML.tag"
+      - "C:/Program Files (x86)/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/SFML.tag"
+      - "C:/Program Files/CMake/include/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/CMake/include/SFML.tag"
+      - "C:/Program Files/CMake/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/CMake/SFML.tag"
+      - "C:/Program Files (x86)/Game/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/Game/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/Game/include/SFML.tag"
+      - "C:/Program Files (x86)/Game/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/Game/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/Game/SFML.tag"
+      - "C:/Users/radmi/source/repos/Game/SFML-3.0.0/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/source/repos/Game/SFML-3.0.0/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/source/repos/Game/SFML-3.0.0/SFML.tag"
+      - "C:/Users/radmi/Library/Frameworks/SFML/doc/SFML.tag"
+      - "C:/Users/radmi/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "C:/Users/radmi/Library/Frameworks/SFML.tag"
+      - "/Library/Frameworks/SFML/doc/SFML.tag"
+      - "/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "/Library/Frameworks/SFML.tag"
+      - "/usr/local/SFML/doc/SFML.tag"
+      - "/usr/local/share/doc/SFML/SFML.tag"
+      - "/usr/local/SFML.tag"
+      - "/usr/SFML/doc/SFML.tag"
+      - "/usr/share/doc/SFML/SFML.tag"
+      - "/usr/SFML.tag"
+      - "/sw/SFML/doc/SFML.tag"
+      - "/sw/share/doc/SFML/SFML.tag"
+      - "/sw/SFML.tag"
+      - "/opt/local/SFML/doc/SFML.tag"
+      - "/opt/local/share/doc/SFML/SFML.tag"
+      - "/opt/local/SFML.tag"
+      - "/opt/csw/SFML/doc/SFML.tag"
+      - "/opt/csw/share/doc/SFML/SFML.tag"
+      - "/opt/csw/SFML.tag"
+      - "/opt/SFML/doc/SFML.tag"
+      - "/opt/share/doc/SFML/SFML.tag"
+      - "/opt/SFML.tag"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Game"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Game"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "SFML-3.0.0/lib/cmake/SFML/SFMLGraphicsDependencies.cmake:14 (find_dependency)"
+      - "SFML-3.0.0/lib/cmake/SFML/SFMLConfig.cmake:148 (include)"
+      - "CMakeLists.txt:28 (find_package)"
+    name: "Freetype"
+    configs:
+      -
+        filename: "Freetype.cps"
+        kind: "cps"
+      -
+        filename: "freetype.cps"
+        kind: "cps"
+      -
+        filename: "FreetypeConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "freetype-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Freetype"
+      search_paths:
+        - "C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML/../../../"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/pkgRedirects/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/pkgRedirects/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/pkgRedirects/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/pkgRedirects/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/pkgRedirects/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/pkgRedirects/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git LFS/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git LFS/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git LFS/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git LFS/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git LFS/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git LFS/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Python/Python310/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/.dotnet/tools/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/.dotnet/tools/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/.dotnet/tools/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/.dotnet/tools/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/.dotnet/tools/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/.dotnet/tools/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/AppData/Local/PowerToys/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/freetype-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/share/cps/Freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/share/cps/freetype.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/freetype/FreetypeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/freetype/freetype-config.cmake"
+      mode: "config"
+      version: "2.13.2"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Game"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Game"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "SFML-3.0.0/lib/cmake/SFML/SFMLSystemDependencies.cmake:8 (find_dependency)"
+      - "SFML-3.0.0/lib/cmake/SFML/SFMLConfig.cmake:148 (include)"
+      - "CMakeLists.txt:28 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-v8yemp"
+      binary: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-v8yemp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML;C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML;C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-v8yemp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_687bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+        Build started 07.11.2026 0:50:33.
+        
+        Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8yemp\\cmTC_687bd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8yemp\\Debug\\".
+          Creating directory "cmTC_687bd.dir\\Debug\\cmTC_687bd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_687bd.dir\\Debug\\cmTC_687bd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_687bd.dir\\Debug\\cmTC_687bd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_687bd.dir\\Debug\\\\" /Fd"cmTC_687bd.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8yemp\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ?????????? ?????????? (Microsoft Corporation).  ??? ????? ????????.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_687bd.dir\\Debug\\\\" /Fd"cmTC_687bd.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8yemp\\src.cxx"
+          src.cxx
+        C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8yemp\\src.cxx(1,10): error C1083: ?? ??????? ??????? ???? ?????????: pthread.h: No such file or directory, [C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8yemp\\cmTC_687bd.vcxproj]
+        Done Building Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8yemp\\cmTC_687bd.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8yemp\\cmTC_687bd.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8yemp\\src.cxx(1,10): error C1083: ?? ??????? ??????? ???? ?????????: pthread.h: No such file or directory, [C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v8yemp\\cmTC_687bd.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "SFML-3.0.0/lib/cmake/SFML/SFMLSystemDependencies.cmake:8 (find_dependency)"
+      - "SFML-3.0.0/lib/cmake/SFML/SFMLConfig.cmake:148 (include)"
+      - "CMakeLists.txt:28 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-9s8u29"
+      binary: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-9s8u29"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML;C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML;C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-9s8u29'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_849bb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+        Build started 07.11.2026 0:50:34.
+        
+        Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s8u29\\cmTC_849bb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s8u29\\Debug\\".
+          Creating directory "cmTC_849bb.dir\\Debug\\cmTC_849bb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_849bb.dir\\Debug\\cmTC_849bb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_849bb.dir\\Debug\\cmTC_849bb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_849bb.dir\\Debug\\\\" /Fd"cmTC_849bb.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s8u29\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ?????????? ?????????? (Microsoft Corporation).  ??? ????? ????????.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_849bb.dir\\Debug\\\\" /Fd"cmTC_849bb.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s8u29\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s8u29\\Debug\\cmTC_849bb.exe" /INCREMENTAL /ILK:"cmTC_849bb.dir\\Debug\\cmTC_849bb.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-9s8u29/Debug/cmTC_849bb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-9s8u29/Debug/cmTC_849bb.lib" /MACHINE:X64  /machine:x64 cmTC_849bb.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "pthreads.lib" [C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s8u29\\cmTC_849bb.vcxproj]
+        Done Building Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s8u29\\cmTC_849bb.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s8u29\\cmTC_849bb.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: ?? ??????? ??????? ???? "pthreads.lib" [C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s8u29\\cmTC_849bb.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "SFML-3.0.0/lib/cmake/SFML/SFMLSystemDependencies.cmake:8 (find_dependency)"
+      - "SFML-3.0.0/lib/cmake/SFML/SFMLConfig.cmake:148 (include)"
+      - "CMakeLists.txt:28 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-ub1i0h"
+      binary: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-ub1i0h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML;C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML;C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-ub1i0h'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0be00.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+        Build started 07.11.2026 0:50:34.
+        
+        Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ub1i0h\\cmTC_0be00.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ub1i0h\\Debug\\".
+          Creating directory "cmTC_0be00.dir\\Debug\\cmTC_0be00.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0be00.dir\\Debug\\cmTC_0be00.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0be00.dir\\Debug\\cmTC_0be00.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_0be00.dir\\Debug\\\\" /Fd"cmTC_0be00.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ub1i0h\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ?????????? ?????????? (Microsoft Corporation).  ??? ????? ????????.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_0be00.dir\\Debug\\\\" /Fd"cmTC_0be00.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ub1i0h\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ub1i0h\\Debug\\cmTC_0be00.exe" /INCREMENTAL /ILK:"cmTC_0be00.dir\\Debug\\cmTC_0be00.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-ub1i0h/Debug/cmTC_0be00.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-ub1i0h/Debug/cmTC_0be00.lib" /MACHINE:X64  /machine:x64 cmTC_0be00.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "pthread.lib" [C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ub1i0h\\cmTC_0be00.vcxproj]
+        Done Building Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ub1i0h\\cmTC_0be00.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ub1i0h\\cmTC_0be00.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: ?? ??????? ??????? ???? "pthread.lib" [C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ub1i0h\\cmTC_0be00.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "nativefiledialog-extended-master/CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+      - "C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Game"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Game"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "nativefiledialog-extended-master/CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+      Build started 07.11.2026 0:50:35.
+      
+      Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\4.4.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\4.4.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\4.4.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.51
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/radmi/source/repos/Game/build/CMakeFiles/4.4.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "nativefiledialog-extended-master/CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/"
+      - "C:/OracleXE/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/"
+      - "C:/Users/radmi/.dotnet/tools/"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/Game/bin/"
+      - "C:/Program Files (x86)/Game/sbin/"
+      - "C:/Program Files (x86)/Game/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/lld-link.com"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/lld-link.exe"
+      - "C:/app/radmir/product/21c/dbhomeXE/bin/lld-link"
+      - "C:/OracleXE/dbhomeXE/bin/lld-link.com"
+      - "C:/OracleXE/dbhomeXE/bin/lld-link.exe"
+      - "C:/OracleXE/dbhomeXE/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git LFS/lld-link.com"
+      - "C:/Program Files/Git LFS/lld-link.exe"
+      - "C:/Program Files/Git LFS/lld-link"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link.com"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/Scripts/lld-link"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.3.1/bin/lld-link"
+      - "C:/Users/radmi/.dotnet/tools/lld-link.com"
+      - "C:/Users/radmi/.dotnet/tools/lld-link.exe"
+      - "C:/Users/radmi/.dotnet/tools/lld-link"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/lld-link.com"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/lld-link.exe"
+      - "C:/Users/radmi/Downloads/SysinternalsSuite/lld-link"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/PowerToys/DSCModules/lld-link"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/lld-link.com"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/lld-link.exe"
+      - "C:/Users/radmi/AppData/Local/PowerToys/bin/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/CMake/sbin/lld-link.com"
+      - "C:/Program Files/CMake/sbin/lld-link.exe"
+      - "C:/Program Files/CMake/sbin/lld-link"
+      - "C:/Program Files/CMake/lld-link.com"
+      - "C:/Program Files/CMake/lld-link.exe"
+      - "C:/Program Files/CMake/lld-link"
+      - "C:/Program Files (x86)/Game/bin/lld-link.com"
+      - "C:/Program Files (x86)/Game/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Game/bin/lld-link"
+      - "C:/Program Files (x86)/Game/sbin/lld-link.com"
+      - "C:/Program Files (x86)/Game/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/Game/sbin/lld-link"
+      - "C:/Program Files (x86)/Game/lld-link.com"
+      - "C:/Program Files (x86)/Game/lld-link.exe"
+      - "C:/Program Files (x86)/Game/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\radmir\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\OracleXE\\dbhomeXE\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1\\bin"
+        - "C:\\Users\\radmi\\.dotnet\\tools"
+        - "C:\\Users\\radmi\\Downloads\\SysinternalsSuite"
+        - "C:\\Users\\radmi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\radmi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Users\\radmi\\AppData\\Local\\PowerToys\\bin\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Game"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Game"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "nativefiledialog-extended-master/CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-0gnj1l"
+      binary: "C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-0gnj1l"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML;C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML;C:/Users/radmi/source/repos/Game/SFML-3.0.0/lib/cmake/SFML"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-0gnj1l'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_47ad9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+        Build started 07.11.2026 0:50:36.
+        
+        Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gnj1l\\cmTC_47ad9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gnj1l\\Debug\\".
+          Creating directory "cmTC_47ad9.dir\\Debug\\cmTC_47ad9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_47ad9.dir\\Debug\\cmTC_47ad9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_47ad9.dir\\Debug\\cmTC_47ad9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_47ad9.dir\\Debug\\\\" /Fd"cmTC_47ad9.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ?????????? ?????????? (Microsoft Corporation).  ??? ????? ????????.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_47ad9.dir\\Debug\\\\" /Fd"cmTC_47ad9.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gnj1l\\Debug\\cmTC_47ad9.exe" /INCREMENTAL /ILK:"cmTC_47ad9.dir\\Debug\\cmTC_47ad9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-0gnj1l/Debug/cmTC_47ad9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-0gnj1l/Debug/cmTC_47ad9.lib" /MACHINE:X64  /machine:x64 cmTC_47ad9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_47ad9.vcxproj -> C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gnj1l\\Debug\\cmTC_47ad9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_47ad9.dir\\Debug\\cmTC_47ad9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_47ad9.dir\\Debug\\cmTC_47ad9.tlog\\cmTC_47ad9.lastbuildstate".
+        Done Building Project "C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gnj1l\\cmTC_47ad9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "nativefiledialog-extended-master/CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\radmi\\source\\repos\\Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gnj1l\\Debug\\cmTC_47ad9.exe" /INCREMENTAL /ILK:"cmTC_47ad9.dir\\Debug\\cmTC_47ad9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-0gnj1l/Debug/cmTC_47ad9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/radmi/source/repos/Game/build/CMakeFiles/CMakeScratch/TryCompile-0gnj1l/Debug/cmTC_47ad9.lib" /MACHINE:X64  /machine:x64 cmTC_47ad9.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "nativefiledialog-extended-master/CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
